@@ -1,5 +1,6 @@
 body {
-    background: white
+    background: white;
+    font-family: 'Courier Prime', monospace;
 }
 
 .resume {
@@ -13,7 +14,8 @@ body {
     background: #124571
 }
 .resume-header h1, .resume-header p  {
-    color: white
+    color: white;
+    padding-top: 5px
 }
 .resume-body{
     display: flex
@@ -21,13 +23,17 @@ body {
 .resume-content {
     width: 500px;
     height: 600px;
-    background: #f2f2f2
+    background: #f2f2f2;
+    padding-left: 10px;
+    padding-right: 10px
 }
 .resume-info {
     float: right;
     background: gray;
     width:200px;
-    height: 600px
+    height: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 h2 {
     color: #124571;
@@ -41,4 +47,20 @@ h2 {
     width: 70%;
     height: 20px;
     background: #124571
+}
+.header-wrapper {
+    position: relative;
+    left: 10px
+}
+p{
+    position: relative;
+    bottom: 20px;
+}
+.education-description {
+    position: relative;
+    top: 10px;
+}
+.experience span {
+    position: relative;
+    bottom: 20px
 }
