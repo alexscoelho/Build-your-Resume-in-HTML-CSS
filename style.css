@@ -1,0 +1,32 @@
+body {
+    background: gray
+}
+
+.resume {
+    
+    margin: 0 auto;
+    background:white;
+    width: 700px;
+    height: 690px
+    
+}
+.resume-header {
+    width: 700px;
+    height: 90px;
+    background: #0052cc
+
+}
+.resume-body{
+    display: flex
+}
+.resume-content {
+    width: 500px;
+    height: 600px;
+    background: red
+}
+.resume-info {
+    float: right;
+    background: green;
+    width:200px;
+    height: 600px
+}
